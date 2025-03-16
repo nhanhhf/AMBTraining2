@@ -1,0 +1,11 @@
+{
+    "moduleList"    :   8,
+    "moduleCode"    : [
+    "ATA 21", "ATA26", "ATA 28", "ATA 30", "ATA 36", "ATA 47", "ATA 49", "ATA 70"],
+    "moduleName"    : [
+    "ATA 21", "ATA26", "ATA 28", "ATA 30", "ATA 36", "ATA 47", "ATA 49", "ATA 70"
+    ],
+    "moduleVersions": [1, 1, 1, 1, 1, 1, 1, 1],
+    "verifyTest"    : [1, 1, 1, 1, 1, 1, 1, 1],
+    "subPart"       : [1, 1, 1, 1, 1, 1, 1, 1]
+}
