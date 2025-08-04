@@ -1,0 +1,8 @@
+{
+    "moduleList"    :   1,
+    "moduleCode"    : ["Module1"],
+    "moduleName"    : ["Module 1"],
+    "moduleVersions": [1],
+    "verifyTest"    : [-1],
+    "subPart"       : [[2]]
+}
