@@ -1,0 +1,16 @@
+{
+    "moduleList"    :   13,
+    "moduleCode"    : [
+    "ATA 26 - A320 NEO", "ATA 30 - A320 NEO", "ATA 36 - A320 NEO", "ATA 71 - A320 NEO", 
+    "ATA 72 - A320 NEO", "ATA 73 - A320 NEO", "ATA 74 - A320 NEO", "ATA 75 - A320 NEO", 
+    "ATA 76 - A320 NEO", "ATA 77 - A320 NEO", "ATA 78 - A320 NEO", "ATA 79 - A320 NEO", 
+    "ATA 80 - A320 NEO"],
+    "moduleName"    : [
+    "ATA 26 - A320 NEO", "ATA 30 - A320 NEO", "ATA 36 - A320 NEO", "ATA 71 - A320 NEO", 
+    "ATA 72 - A320 NEO", "ATA 73 - A320 NEO", "ATA 74 - A320 NEO", "ATA 75 - A320 NEO", 
+    "ATA 76 - A320 NEO", "ATA 77 - A320 NEO", "ATA 78 - A320 NEO", "ATA 79 - A320 NEO", 
+    "ATA 80 - A320 NEO"],
+    "moduleVersions": [1, 1, 1, 1, 1, 1, 1, 1, 1,1, 1, 1, 1],
+    "verifyTest"    : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    "subPart"       : [[1], [1], [1], [1], [1],[1], [1],[1], [1],[1],[1],[1],[1]]
+}

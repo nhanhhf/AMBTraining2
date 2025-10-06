@@ -1,0 +1,310 @@
+{
+    "ModuleName": "ATA 26 - A320 NEO",
+    "CatInfos": [
+      {
+        "CatName": "A",
+        "QuestionRequired": [
+          25,
+          0,
+          0
+        ],
+        "TimeLimit": 10
+      },
+      {
+        "CatName": "B1",
+        "QuestionRequired": [
+          8,
+          0,
+          0
+        ],
+        "TimeLimit": 45
+      },
+      {
+        "CatName": "B2",
+        "QuestionRequired": [
+          8,
+          0,
+          0
+        ],
+        "TimeLimit": 45
+      }
+    ],
+    "Questions": [
+      {
+        "Index": 1,
+        "QuestionString": "The fire detection loops on PW1100G engines are:",
+        "Answers": [
+          "Dual loops",
+          "Single loops",
+          "Single loops on pylon area, the other areas are dual loops"
+        ],
+        "Level": 1,
+        "CorrectAnswer": 1
+      },
+      {
+        "Index": 2,
+        "QuestionString": "Fire detectors on PW1100G engine are located at:",
+        "Answers": [
+          "Pylon area, fan area, core area",
+          "Pylon area, AGB area, core area",
+          "Fan area, AGB area, core area"
+        ],
+        "Level": 1,
+        "CorrectAnswer": 2
+      },
+      {
+        "Index": 3,
+        "QuestionString": "The fire detectors of each fire detection loop on PW1100G engine are:",
+        "Answers": [
+          "Parallel connected",
+          "Serial connected",
+          "Not connected together"
+        ],
+        "Level": 1,
+        "CorrectAnswer": 1
+      },
+      {
+        "Index": 4,
+        "QuestionString": "Where are the Engine fire components located?",
+        "Answers": [
+          "On the Fan and the Turbine and Pylon",
+          "On the left and right side of engine core, along the main gearbox and low pressure turbine",
+          "On the left and right side of engine core, along the main gearbox"
+        ],
+        "Level": 1,
+        "CorrectAnswer": 2
+      },
+      {
+        "Index": 5,
+        "QuestionString": "How many fire/overheat detectors does the Engine fire/overheat detection system comprise of?",
+        "Answers": [
+          "2",
+          "3",
+          "6"
+        ],
+        "Level": 2,
+        "CorrectAnswer": 2
+      },
+      {
+        "Index": 6,
+        "QuestionString": "What does the Engine fire/overheat detector assembly have?",
+        "Answers": [
+          "An alarm switch",
+          "An integrity switch",
+          "An alarm switch that reacts to temperature and pressure, and an integrity switch that responds to pressure"
+        ],
+        "Level": 2,
+        "CorrectAnswer": 3
+      },
+      {
+        "Index": 7,
+        "QuestionString": "How is the Alarm switch of Engine fire/overheat detector operate?",
+        "Answers": [
+          "Operating on the principle that pressure decrease with a rise in temperature. If ambient temperature around the sensor element increases, or a short section of the sensor element is exposed to intense heat, internal pressure in the sensor element and the responder housing will decrease",
+          "Operating on the principle that pressure increases with a rise in temperature. If ambient temperature around the sensor element increases, or a short section of the sensor element is exposed to intense heat, internal pressure in the sensor element and the responder housing will increase in proportion",
+          "Operating on the principle that pressure increases with a rise in temperature. If ambient temperature around the sensor element increases, or a short section of the sensor element is exposed to intense heat, internal pressure in the sensor element and the responder housing will decrease"
+        ],
+        "Level": 2,
+        "CorrectAnswer": 2
+      },
+      {
+        "Index": 8,
+        "QuestionString": "In the normal condition, the status of Alarm switch and Integrity switch is:",
+        "Answers": [
+          "Alarm switch is in opened position, Integrity switch is in closed position",
+          "Alarm switch is in opened position, Integrity switch is in opened position",
+          "Alarm switch is in closed position, Integrity switch is in closed position"
+        ],
+        "Level": 3,
+        "CorrectAnswer": 1
+      },
+      {
+        "Index": 9,
+        "QuestionString": "In case of fire:",
+        "Answers": [
+          "Causing the fast release of a large amount of gas from the special core material. This gas release very quickly increases the internal pressure to a set value, makes the pressure-sensitive alarm switch inside the responder close",
+          "Causing the fast release of a large amount of gas from the special core material. This gas release very quickly decreases the internal pressure to a set value, makes the pressure-sensitive alarm switch inside the responder close",
+          "Causing the fast release of a large amount of gas from the special core material. This gas release very quickly increases the internal pressure to a set value, makes the pressure-sensitive alarm switch inside the responder open"
+        ],
+        "Level": 3,
+        "CorrectAnswer": 1
+      },
+      {
+        "Index": 10,
+        "QuestionString": "How the Integrity switch in the responder housing is kept closed position?",
+        "Answers": [
+          "By normal gas pressure in the sensor element",
+          "By airflow pressure from LPC",
+          "By electrical relay"
+        ],
+        "Level": 2,
+        "CorrectAnswer": 1
+      },
+      {
+        "Index": 11,
+        "QuestionString": "In case of the gas leakage:",
+        "Answers": [
+          "The subsequent pressure increase will cause the integrity switch to close, signaling a fault malfunction to the flight deck",
+          "The subsequent pressure decrease will cause the integrity switch to close, signaling a fault malfunction to the flight deck",
+          "The subsequent pressure decrease will cause the integrity switch to open, signaling a fault malfunction to the flight deck"
+        ],
+        "Level": 2,
+        "CorrectAnswer": 3
+      },
+      {
+        "Index": 12,
+        "QuestionString": "The engine fire protection is fulfilled by:",
+        "Answers": [
+          "The FIRE detection system only",
+          "The FIRE detection system and the FIRE extinguishing system",
+          "The FIRE extinguishing system only"
+        ],
+        "Level": 3,
+        "CorrectAnswer": 2
+      },
+      {
+        "Index": 13,
+        "QuestionString": "The responder of engine fire loop has a chamber connected to two pressure switches:",
+        "Answers": [
+          "An ALARM switch and a FIRE switch",
+          "A MONITOR switch and an INTEGRITY switch",
+          "An ALARM switch and an INTEGRITY switch"
+        ],
+        "Level": 3,
+        "CorrectAnswer": 3
+      },
+      {
+        "Index": 14,
+        "QuestionString": "On each engine, 2 continuous loops for the fire detection and each loop contains:",
+        "Answers": [
+          "3 fire detectors connected in parallel and connected to a different channel of the FDU",
+          "2 fire detectors connected in parallel and connected to a different channel of the FDU",
+          "3 fire detectors connected in series and connected to a different channel of the FDU"
+        ],
+        "Level": 3,
+        "CorrectAnswer": 1
+      },
+      {
+        "Index": 15,
+        "QuestionString": "The fire extinguishing system of each PW1100G engine comprises of:",
+        "Answers": [
+          "02 fire extinguishing bottles, 01 SQUIB P/B switch",
+          "02 fire extinguishing bottles, 02 SQUIB P/B switches",
+          "01 fire extinguishing bottle, 02 SQUIB P/B switches"
+        ],
+        "Level": 3,
+        "CorrectAnswer": 2
+      },
+      {
+        "Index": 16,
+        "QuestionString": "The 3 PW fire detectors are located:",
+        "Answers": [
+          "Around the AGB, in the Core between the fuel nozzles and the aft circumferential ventilation outlet, at the pylon above the combustion chamber",
+          "Around the AGB, in the Core between the fuel nozzles and the aft circumferential ventilation outlet, at around ventilation exit grid of the fan compartment",
+          "Around the AGB, in the Core between the fuel nozzles and around ventilation exit grid of the fan compartment, at the pylon above the combustion chamber"
+        ],
+        "Level": 2,
+        "CorrectAnswer": 1
+      },
+    {
+      "Index": 1,
+      "QuestionString": "How is the engine fire detector assembly attached:",
+      "Answers": [
+        "On internal side of the C-Ducts",
+        "Directly to the pylon and fancowls",
+        "Directly to the engine components."
+      ],
+      "Level": 1,
+      "CorrectAnswer": 3
+    },
+    {
+      "Index": 2,
+      "QuestionString": "Detector sensor elements on engine are secured to support tube by:",
+      "Answers": [
+        "Clamps and Teflon liners",
+        "Safety wires, clamps and Teflon liners",
+        "Fasteners and clamps"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 3,
+      "QuestionString": "A fire/overheat detector assembly consists of:",
+      "Answers": [
+        "A support tube, a bracket and 04 fire/overheat detectors",
+        "A support tubes, 04 brackets and a fire/overheat detector",
+        "A support tube, 04 brakets and 04 fire/overheat detectors"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 4,
+      "QuestionString": "How does the Integrity switch of Engine fire/overheat detector operate:",
+      "Answers": [
+        "Respond to temperature inside of detector",
+        "Respond to pressure inside of detector",
+        "Respond to both temperature and pressure inside of detector"
+      ],
+      "Level": 1,
+      "CorrectAnswer": 2
+    },
+    {
+      "Index": 5,
+      "QuestionString": "The Integrity switch of Engine fire/overheat detector issues a signal to the flight deck if:",
+      "Answers": [
+        "Faulty on detector occurring.",
+        "Overheat or fire condition",
+        "Overheat or fire condition or faulty on detector."
+      ],
+      "Level": 2,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 6,
+      "QuestionString": "When fire or overheat condition disappears, the alarm switch will:",
+      "Answers": [
+        "Stay close position",
+        "Back to open position by reset CB of FDU",
+        "Back to open position automatically"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 3
+    },
+    {
+      "Index": 7,
+      "QuestionString": "A fire/overheat detector operates depend on:",
+      "Answers": [
+        "Resistance of element",
+        "Internal gas pressure",
+        "Voltage of detecting circuit"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 2
+    },
+    {
+      "Index": 8,
+      "QuestionString": "The detector will issue an overheat signal due to:",
+      "Answers": [
+        "Generally increasing pressure by helium gas",
+        "Generally increasing pressure by hydrogen gas",
+        "Quickly increasing pressure by hydrogen gas"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 9,
+      "QuestionString": "The detector will issue a fire signal due to:",
+      "Answers": [
+        "Quickly increasing pressure by helium gas",
+        "Generally increasing pressure by hydrogen gas",
+        "Quickly increasing pressure by hydrogen gas"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 3
+    }
+
+    ]
+  }

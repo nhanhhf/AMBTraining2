@@ -1,0 +1,343 @@
+{
+  "ModuleName": "ATA 75 - A320 NEO",
+  "CatInfos": [
+    {
+      "CatName": "A",
+      "QuestionRequired": [
+        28,
+        0,
+        0
+      ],
+      "TimeLimit": 10
+    },
+    {
+      "CatName": "B1",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    },
+    {
+      "CatName": "B2",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    }
+  ],
+  
+  "Questions": [
+  {
+    "Index": 1,
+    "QuestionString": "How many start bleed valves on PW1100G?",
+    "Answers": [
+      "2",
+      "3",
+      "4"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 2,
+    "QuestionString": "Which stage the start bleed valve install on?",
+    "Answers": [
+      "6th",
+      "7th",
+      "8th"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 3,
+    "QuestionString": "The operating LP compressor stator vane actuator (LPC SVA), if there is a loss of electrical power?",
+    "Answers": [
+      "The actuator positions vanes in the full close position for inhibited airflow through the LPC",
+      "The actuator positions vanes in the full open fail safe position for maximum airflow through the LPC",
+      "Neither A nor B"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 4,
+    "QuestionString": "What is the purpose of the 2.5 Bleed valve actuator?",
+    "Answers": [
+      "Control the LPC bleed valve through the 2.5 bleed valve linkage when commanded by EEC",
+      "Control the HPC bleed valve through the 2.5 bleed valve linkage when commanded by EEC",
+      "Control the LPT bleed valve through the 2.5 bleed valve linkage when commanded by EEC"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 5,
+    "QuestionString": "Which is bleed air system used to improve engine startup performance?",
+    "Answers": [
+      "The HPC Bleed air system bleeds 6th stage HPC air",
+      "The HPC Bleed air system bleeds 8th stage HPC air",
+      "The LPC Bleed air system bleeds 8th stage HPC air"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 6,
+    "QuestionString": "At start, how are the HPC active and passive bleed valve operate?",
+    "Answers": [
+      "Mechanically spring loaded (fail safe) open",
+      "Electrically control to close",
+      "Electrically control to open"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 7,
+    "QuestionString": "How is Active clearance control valve operate?",
+    "Answers": [
+      "During normal engine operation, the valve is closed at start and idle",
+      "Partially open at takeoff and climb, and fully open at cruise",
+      "Both answer are correct"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 8,
+    "QuestionString": "Is the purpose of the Active Clearance Control (ACC) system?",
+    "Answers": [
+      "To improve compressor efficiency",
+      "To improve and maintain engine performance",
+      "To reduce overall engine thermal growth"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 9,
+    "QuestionString": "What is 5 major function of air system on PW1100G?",
+    "Answers": [
+      "1, 2, 3, 4, 5",
+      "1, 3, 4, 5, 7",
+      "1, 3, 4, 6, 7"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 10,
+    "QuestionString": "What is the fail safe position of 2.5 Bleed valve actuator?",
+    "Answers": [
+      "Fully Close",
+      "Fully open",
+      "30% open"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 11,
+    "QuestionString": "The HPC Stator Vane Actuator can control how many stage of HPC?",
+    "Answers": [
+      "2",
+      "3",
+      "4"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 12,
+    "QuestionString": "What is the purpose of Buffer air heat exchanger?",
+    "Answers": [
+      "Provides discrete (on/off) control of HPC 3rd Stage bleed air supply to the Bearing Ventilation System",
+      "Use station 2.5 bleed air to cool HPC 3rd Stage Air before its delivery to the No.4 Bearing housing",
+      "Provide cooling buffer air to the engine main bearing compartment and prevent oil leakage"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 13,
+    "QuestionString": "What is the purpose of LPBSOV - Low pressure buffer shutoff valve?",
+    "Answers": [
+      "Provides discrete (on/off) control of HPC 3rd Stage servo pressure sent to the LPBSOV",
+      "Direct buffer air to the Bearing Ventilation System",
+      "Provides discrete (on/off) control of HPC 3rd Stage bleed air supply to the Bearing Ventilation System"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 14,
+    "QuestionString": "How is the inlet cone anti-iced?",
+    "Answers": [
+      "The inlet cone is not anti-iced at all",
+      "The inlet cone is anti-iced when engine anti-ice pushbutton is pushed on",
+      "The inlet cone is anti-iced with a continuous flow of 2.5 bleed air"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 15,
+    "QuestionString": "The VVS (Variable Vanes System) actuators of LPC and HPC are:",
+    "Answers": [
+      "Electrically controlled by EEC and actuated by servo fuel",
+      "Electrically controlled by EEC and actuated by P3 pneumatic motive air",
+      "Electrically controlled and actuated by EEC"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 16,
+    "QuestionString": "The 2.5 bleed valve actuator commanded by the EEC and actuated:",
+    "Answers": [
+      "By P3 pneumatic motive air",
+      "Electrical motor",
+      "Servo fuel"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 17,
+    "QuestionString": "What is the fail-safe position of LPC Stator Vane System?",
+    "Answers": [
+      "Full closed",
+      "Full open",
+      "Preselected partially open"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 18,
+    "QuestionString": "What is the fail-safe position of 2.5 Bleed Valve?",
+    "Answers": [
+      "Full closed",
+      "Full open",
+      "Preset partially open"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 19,
+    "QuestionString": "How to improve engine startup performance by the HPC Air System?",
+    "Answers": [
+      "By 2.5 bleed air valve",
+      "By two HPC bleed valves",
+      "By three HPC bleed valves"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 20,
+    "QuestionString": "What is the function of HPC bleed valves?",
+    "Answers": [
+      "Allow HPC 6th Stage air to bleed directly into the core compartment during engine start",
+      "Allow HPC 6th Stage air to bleed directly into fan flow during engine start",
+      "Allow HPC 3rd Stage air to bleed directly into the core compartment during engine start"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 21,
+    "QuestionString": "How does EEC monitor the position of HPC bleed valves?",
+    "Answers": [
+      "By thermocouple sensors",
+      "By pressure sensors",
+      "There is no position feedback to EEC"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 22,
+    "QuestionString": "The ACC (Active Clearance Control) System uses fan air to:",
+    "Answers": [
+      "Cool turbine’s blades and vanes",
+      "Cool turbine cases to improve the fuel efficiency",
+      "Cool bearing compartments"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 23,
+    "QuestionString": "What is the fail-safe mode of the ACC (Active Clearance Control) valve and actuator?",
+    "Answers": [
+      "Closed",
+      "Full open",
+      "Partially open"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 24,
+    "QuestionString": "2.5 Stage Bleed Valve locates at:",
+    "Answers": [
+      "Low Pressure Compressor",
+      "Compressor Intermediate Case",
+      "High Pressure Compressor"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 25,
+    "QuestionString": "The engine inlet cone is anti-iced with",
+    "Answers": [
+      "Continuous airflow from the 2.5 compressor stage",
+      "Continuous airflow from the 3 compressor stage",
+      "Continuous airflow from the 6 compressor stage"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 26,
+    "QuestionString": "A single stage Variable Inlet Guide Vanes (VIGVs) which direct the air to the LP Compressor at the correct angle and",
+    "Answers": [
+      "Are controlled by the PHMU",
+      "Are controlled by the EEC",
+      "Are not controlled by the EEC"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 27,
+    "QuestionString": "No.4 bearing compartment is cooled and sealing by:",
+    "Answers": [
+      "Buffer air (HPC 3rd stage air cooled by 2.5 bleed air)",
+      "Buffer air (HPC 3rd stage air cooled by fan air)",
+      "Buffer air (2.5 bleed air cooled by fan air)"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 28,
+    "QuestionString": "To maintain the proper air pressure at bearing compartment Nos. 1, 2, 3, and 5/6 for carbon seals:",
+    "Answers": [
+      "HPC 3rd Stage air is supplied to achieve the function",
+      "2.5 bleed air is used for this function",
+      "Depending on power setting 2.5 bleed air or HPC 3rd stage air is used for bearing compartments sealing/pressurizing"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  }
+]
+}

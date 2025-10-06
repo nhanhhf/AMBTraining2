@@ -1,0 +1,364 @@
+{
+  "ModuleName": "ATA 30 - A320 NEO",
+  "CatInfos": [
+    {
+      "CatName": "A",
+      "QuestionRequired": [
+        30,
+        0,
+        0
+      ],
+      "TimeLimit": 10
+    },
+    {
+      "CatName": "B1",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    },
+    {
+      "CatName": "B2",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    }
+  ],
+  "Questions": [
+    {
+      "Index": 1,
+      "QuestionString": "Hot air for nacelle anti-ice system on PW1100G engines supplied from:",
+      "Answers": [
+        "A/C bleed air system",
+        "Dedicated bleed air from LPC stage 3",
+        "Dedicated bleed air from HPC stage 6"
+      ],
+      "Level": 3,
+      "CorrectAnswer": 3
+    },
+    {
+      "Index": 2,
+      "QuestionString": "On PW1100G engine anti-ice system, there is (are):",
+      "Answers": [
+        "01 PRSOV (Pressure Regulating and Shut Off Valve)",
+        "01 SOV (Shut Off valve) and 01 PRV (Pressure Regulating Valve)",
+        "02 PRSOVs (Pressure Regulating and Shut Off Valve)"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 3
+    },
+    {
+      "Index": 3,
+      "QuestionString": "On PW1100G engine anti-ice system, to deactivate an anti-ice PRSOV:",
+      "Answers": [
+        "You must open the fan cowls",
+        "You must open the thrust reverser cowls",
+        "You can deactivate the PRSOV with the fan cowls and reverser cowls closed"
+      ],
+      "Level": 3,
+      "CorrectAnswer": 3
+    },
+    {
+      "Index": 4,
+      "QuestionString": "On PW1100G engine the ENG ANTI-ICE P/B switches on overhead panel:",
+      "Answers": [
+        "Control the engine anti-ice valves directly",
+        "Send signal to EEC, then the EEC controls the engine anti-ice valves",
+        "Send signal to EIU, then the EIU controls the engine anti-ice valves"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 2
+    },
+    {
+      "Index": 5,
+      "QuestionString": "To monitor the Nacelle Anti-Ice system operation, the EEC:",
+      "Answers": [
+        "Uses 2 pressure transducers",
+        "Uses 2 micro-switches located on 2 NAI PRSOV",
+        "Uses 2 remote control solenoids"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 6,
+      "QuestionString": "In case of leakage or burst of NAI (Nacelle Anti Ice) duct in Fan compartment:",
+      "Answers": [
+        "EEC will recognize by Thermocouples",
+        "EEC will recognize by Pressure Transducers",
+        "EEC will recognize by 1 Pressure Transducer"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 7,
+      "QuestionString": "What is true regarding 2 NAI PRSOVs?",
+      "Answers": [
+        "When the NAI solenoids de-energized, the HPC 6th stage air is supplied to inlet cowl",
+        "When the NAI solenoids energized, the HPC 6th stage air is supplied to inlet cowl",
+        "At least one NAI solenoid de-energized, the HPC 6th stage air is supplied to inlet cowl"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 8,
+      "QuestionString": "Hot air for nacelle anti-ice system on PW1100G engine is supplied from:",
+      "Answers": [
+        "A/C bleed air system",
+        "Dedicated bleed air from LPC stage 3",
+        "Dedicated bleed air from HPC stage 6"
+      ],
+      "Level": 1,
+      "CorrectAnswer": 3
+    },
+    {
+      "Index": 9,
+      "QuestionString": "The nacelle anti-ice valves are:",
+      "Answers": [
+        "Electrical controlled & pneumatically operated",
+        "Electrical controlled & operated",
+        "Pneumatically controlled and operated"
+      ],
+      "Level": 1,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 10,
+      "QuestionString": "On PW1100G engine, nacelle anti-ice duct leak or burst is monitored by:",
+      "Answers": [
+        "A leak detector located in the core zone",
+        "01 PT (Pressure Transducer) in the core zone, 01 PT in the fan zone and 01 dual temperature sensor in the fan zone",
+        "A leak detector located in the fan zone"
+      ],
+      "Level": 1,
+      "CorrectAnswer": 2
+    },
+    {
+      "Index": 11,
+      "QuestionString": "On PW1100G engine anti-ice system, there is (are):",
+      "Answers": [
+        "01 PRSOV (Pressure Regulating and Shut Off Valve)",
+        "01 SOV (Shut Off valve) and 01 PRV (Pressure Regulating Valve)",
+        "02 PRSOVs (Pressure Regulating and Shut Off Valve)"
+      ],
+      "Level": 1,
+      "CorrectAnswer": 3
+    },
+    {
+      "Index": 12,
+      "QuestionString": "Regard to PW1100G engine anti-ice system, A/C can be dispatched with:",
+      "Answers": [
+        "Two PRSOVs deactivated in OPEN position",
+        "One PRSOV deactivated in CLOSED position",
+        "One PRSOV deactivated in OPEN position"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 3
+    },
+    {
+      "Index": 13,
+      "QuestionString": "ENG anti-ice valve deactivated in the OPEN position through the Manual Override mechanism on the PRSOV, so A/c can:",
+      "Answers": [
+        "dispatch with 2 PRSOVS locked in open position",
+        "dispatch with 1 PRSOV locked in open position",
+        "A & B are correct"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 2
+    },
+    {
+      "Index": 14,
+      "QuestionString": "Hot air for the Nacelle anti-ice system is supplied by a dedicated HP Compressor (HPC) bleed:",
+      "Answers": [
+        "on the PW1000G, 7th stage",
+        "on the PW1000G, 6th stage",
+        "on the PW1000G, 8th stage"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 2
+    },
+    {
+      "Index": 15,
+      "QuestionString": "In this NEO configuration, one BMC can:",
+      "Answers": [
+        "control & monitor both sides when the other BMC fails",
+        "control & monitor both sides with degraded mode when the other BMC fails",
+        "control & monitor both sides with limited function when the other BMC fails"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 16,
+      "QuestionString": "For the monitoring, the BMCs read:",
+      "Answers": [
+        "pressure transducers (upstream/downstream of the PRV), Precooler Differential Pressure and downstream temperature with the Bleed Temperature Sensor (BTS)",
+        "pressure transducers (upstream/downstream of the PRV), Precooler Differential Pressure",
+        "pressure transducers (upstream/downstream of the PRV), and downstream temperature with the Bleed Temperature Sensor (BTS)"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 17,
+      "QuestionString": "The temperature regulation components are in the pylons:",
+      "Answers": [
+        "Bleed Temperature Sensor (BTS), the Precooler, Fan air valve, Precooler Differential Pressure",
+        "Bleed Temperature Sensor (BTS), the Precooler, Fan air valve",
+        "Bleed Temperature Sensor (BTS), Fan air valve, Precooler Differential Pressure"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 2
+    },
+    {
+      "Index": 18,
+      "QuestionString": "Oil Shuttle Valve (JOSV) which modulates:",
+      "Answers": [
+        "the flow of oil to the No. 1, 1.5, 2 and Fan Drive Gear System (FDGS) based on engine power settings",
+        "the flow of oil to the No. 1, 1.5, 3 and Fan Drive Gear System (FDGS) based on engine power settings",
+        "the flow of oil to the No. 1, 1.5 and Fan Drive Gear System (FDGS) based on engine power settings"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 19,
+      "QuestionString": "The AODV is electrically controlled by the EEC to supply oil to the:",
+      "Answers": [
+        "damper during starting, acceleration and shut it off at high power",
+        "damper during starting and acceleration and shut it off at low power",
+        "damper during starting and acceleration and shut it off at minimum idle power"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 20,
+      "QuestionString": "Each of Nacelle Anti-Ice Pressure Regulating Shutoff Valves (NAI PRSOV) can be deactivated in position according to MEL:",
+      "Answers": [
+        "closed",
+        "open",
+        "either open or closed"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 2
+    },
+    {
+      "Index": 21,
+      "QuestionString": "Which statement below is correct?",
+      "Answers": [
+        "Upper and lower NAI PRSOVs are not interchangeable",
+        "Upper and lower NAI PRSOVs are interchangeable",
+        "Upper and lower NAI PRSOVs are interchangeable with certain condition"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 22,
+      "QuestionString": "How can you operate the Nacelle anti-ice system?",
+      "Answers": [
+        "By ENG ANTI-ICE push button, on ground",
+        "By ENG ANTI-ICE push button, on ground and in flight",
+        "By ENG ANTI-ICE push button, in flight only"
+      ],
+      "Level": 1,
+      "CorrectAnswer": 2
+    },
+    {
+      "Index": 23,
+      "QuestionString": "How is the Engine anti-ice work?",
+      "Answers": [
+        "Electrically controlled and operated by 3rd stage high pressure compressor air",
+        "Electrically controlled and operated by 6th stage high pressure compressor air",
+        "Electrically controlled and operated by 9th stage high pressure compressor air"
+      ],
+      "Level": 3,
+      "CorrectAnswer": 2
+    },
+    {
+      "Index": 24,
+      "QuestionString": "What are the Nacelle anti-ice pressure regulating shutoff valves (NAI PRSOVs) for?",
+      "Answers": [
+        "Upper and lower NAI PRSOVs operate in tandem to control pressure and airflow of LPC 3rd stage air used for inlet anti-ice",
+        "Upper and lower NAI PRSOVs operate in tandem to control pressure and airflow of HPC 6th stage air used for inlet anti-ice",
+        "Upper and lower NAI PRSOVs operate in tandem to control pressure and airflow of HPC 9th stage air used for inlet anti-ice"
+      ],
+      "Level": 3,
+      "CorrectAnswer": 2
+    },
+    {
+      "Index": 25,
+      "QuestionString": "What are the Nacelle anti-ice remote solenoids and manifold for?",
+      "Answers": [
+        "To control the opening and closing of the NAI upper and lower PRSOVs",
+        "To control the opening of the NAI upper and lower PRSOVs",
+        "To control the closing of the NAI upper and lower PRSOVs"
+      ],
+      "Level": 3,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 26,
+      "QuestionString": "Where is Nacelle anti-ice pressure transducers located?",
+      "Answers": [
+        "The downstream pressure transducer is located downstream of the two NAI PRSOVs, as the primary role is to monitor NAI PRSOVs position",
+        "The upstream pressure transducer is located between of the two NAI PRSOVs, as the secondary role is to figure out which NAI PRSOVs fail",
+        "The downstream pressure transducer is located downstream of the two NAI PRSOVs, as the primary role is to monitor NAI PRSOVs position. The upstream pressure transducer is located between of the two NAI PRSOVs, as the secondary role is to figure out which NAI PRSOVs fail"
+      ],
+      "Level": 3,
+      "CorrectAnswer": 3
+    },
+    {
+      "Index": 27,
+      "QuestionString": "How many Fan compartment thermocouples are there in the system?",
+      "Answers": [
+        "One type K thermocouples, one for both EEC channel. To provide the EEC with temperature measurement in the fan compartment",
+        "Two type K thermocouples, one for each EEC channel. To provide the EEC with temperature measurement in the fan compartment",
+        "Two type K thermocouples, one for each EEC channel. To provide the EEC with temperature and pressure measurement in the fan compartment"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 2
+    },
+    {
+      "Index": 28,
+      "QuestionString": "Nacelle anti-ice ducts is segment into:",
+      "Answers": [
+        "Two sections",
+        "Three sections",
+        "Four sections"
+      ],
+      "Level": 1,
+      "CorrectAnswer": 3
+    },
+    {
+      "Index": 29,
+      "QuestionString": "Where is Swirl nozzle attached?",
+      "Answers": [
+        "Attached to the rear of the inlet cowl at 5:00",
+        "Attached to upper of inlet cowl at 1:00",
+        "Attached to the rear of the inlet cowl at 7:00"
+      ],
+      "Level": 1,
+      "CorrectAnswer": 1
+    },
+    {
+      "Index": 30,
+      "QuestionString": "To dispatch aircraft under failure of two engine anti-ice valves?",
+      "Answers": [
+        "Deactivate the valves in open position through the manual override mechanism",
+        "Deactivate the valves in closed position through the manual override mechanism",
+        "No dispatch allowed"
+      ],
+      "Level": 2,
+      "CorrectAnswer": 2
+    }
+  ]
+}

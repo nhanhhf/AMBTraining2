@@ -1,0 +1,190 @@
+{
+  "ModuleName": "ATA 78 - A320 NEO",
+  "CatInfos": [
+    {
+      "CatName": "A",
+      "QuestionRequired": [
+        14,
+        0,
+        0
+      ],
+      "TimeLimit": 10
+    },
+    {
+      "CatName": "B1",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    },
+    {
+      "CatName": "B2",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    }
+  ],
+  
+  "Questions": [
+  {
+    "Index": 1,
+    "QuestionString": "For PW 1130 Engine, When slats are extended, can you fully open reverser cowls?",
+    "Answers": [
+      "Yes",
+      "No, you must not open the reverser cowl when the slats are extended",
+      "Yes, if open by hand"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 2,
+    "QuestionString": "Where is HCU Inhibit Lever located in?",
+    "Answers": [
+      "On HCU",
+      "On RH fan case",
+      "On LH Fan case"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 3,
+    "QuestionString": "How many Hold Open Rod on each Reverser half?",
+    "Answers": [
+      "1",
+      "2",
+      "3"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 4,
+    "QuestionString": "How many blocker doors on each reverser half?",
+    "Answers": [
+      "5",
+      "6",
+      "4"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 5,
+    "QuestionString": "How many latches are used to fully close reversers?",
+    "Answers": [
+      "7",
+      "5",
+      "6"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 6,
+    "QuestionString": "How many locking actuators installed in 1 engine?",
+    "Answers": [
+      "1 on LH Reverser only",
+      "2",
+      "1 on RH Reverser only"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 7,
+    "QuestionString": "How many locking feedback actuators installed in 1 engine?",
+    "Answers": [
+      "1 on RH side only",
+      "2",
+      "1 on LH side only"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 8,
+    "QuestionString": "Two Translating sleeves of engine are synchronized by:",
+    "Answers": [
+      "Flexible shafts",
+      "Latching system",
+      "They are not synchronized at all"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 9,
+    "QuestionString": "The Tertiary Lock system is controlled by:",
+    "Answers": [
+      "EEC",
+      "EIU",
+      "SECs"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 10,
+    "QuestionString": "For maintenance, the reversers can be deployed and stowed manually on the ground by:",
+    "Answers": [
+      "Using the Manual Drive Units (MDU) located on the lower actuators",
+      "The test initiated on MCDU",
+      "Using the Manual Drive Units (MDU) located on the upper actuators"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 11,
+    "QuestionString": "Deactivation of the Hydraulic Control Unit (HCU) is provided by:",
+    "Answers": [
+      "An inhibit lever and inhibit pin",
+      "Inhibit pin",
+      "An inhibit handle to provide to lock out the DCV (Directional Control Valve)"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 12,
+    "QuestionString": "Two Translating sleeves of engine are synchronized by:",
+    "Answers": [
+      "Flexible shafts",
+      "Latching system",
+      "They are not synchronized at all"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 13,
+    "QuestionString": "For de-activation thrust reverser Hydraulic Control Unit (HCU), we need to",
+    "Answers": [
+      "Open the oil tank access-door on the left fan cowl-door, or if necessary, open the fan cowl doors",
+      "Open the RH fan cowl door",
+      "Open engine thrust reserve doors"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 14,
+    "QuestionString": "Track Lock Valve (TLV) solenoids are controlled independently by SEC.",
+    "Answers": [
+      "Independently by EECs",
+      "Independently by LGCIUs",
+      "Independently by SEC"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  }
+]
+
+}

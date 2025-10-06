@@ -1,0 +1,179 @@
+{
+  "ModuleName": "ATA 80 - A320 NEO",
+  "CatInfos": [
+    {
+      "CatName": "A",
+      "QuestionRequired": [
+        13,
+        0,
+        0
+      ],
+      "TimeLimit": 10
+    },
+    {
+      "CatName": "B1",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    },
+    {
+      "CatName": "B2",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    }
+  ],
+  
+  "Questions": [
+  {
+    "Index": 1,
+    "QuestionString": "What is the difference in the starting sequence of PW1100G with V2500?",
+    "Answers": [
+      "Cooling time (auto dry cranking)",
+      "Ignition sequence",
+      "High pressure bleed air"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 2,
+    "QuestionString": "How can we manually open the Start valve?",
+    "Answers": [
+      "By an access door in RH fan cowl",
+      "By an access door in LH Reverser",
+      "By an access door in RH Reverser"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 3,
+    "QuestionString": "Air Starter uses oil for cooling and lubricating from…?",
+    "Answers": [
+      "Starter lubricating system",
+      "Engine Lubricating system",
+      "IDG lubricating system"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 4,
+    "QuestionString": "Start valve controlled by",
+    "Answers": [
+      "Torque motor",
+      "Solenoid",
+      "LVDT"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 5,
+    "QuestionString": "What is the fail-safe position of Starter Valve?",
+    "Answers": [
+      "Fully closed",
+      "Do not have fail-safe position",
+      "Partition open"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 6,
+    "QuestionString": "EGT limit during engine start is:",
+    "Answers": [
+      "635 deg.C",
+      "725 deg.C",
+      "1083.33 deg.C"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 7,
+    "QuestionString": "The normal duty cycle of starter of the engine PW1100G is:",
+    "Answers": [
+      "Three attempts with 35 seconds cooling period between two attempts and total cumulative time is less than 15 min",
+      "Three attempts, each attempt last less than 3 minutes with 35 seconds cooling period between two attempts",
+      "Three attempts, each attempt last less than 5 minutes with 35 seconds cooling period between two attempts"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 8,
+    "QuestionString": "The Air Starter is mounted on",
+    "Answers": [
+      "the right side aft of the MGB",
+      "the left side aft of the MGB",
+      "the fan cowl area"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 9,
+    "QuestionString": "The EEC will abort a start, will not dry motor the engine and will not attempt a restart if",
+    "Answers": [
+      "the starter duty cycle is exceeded",
+      "EEC unable to control fuel flow",
+      "N1 locked rotor"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 10,
+    "QuestionString": "When an automatic start is manually aborted.",
+    "Answers": [
+      "EEC does dry motor the engine",
+      "EEC does not dry motor the engine",
+      "EEC does wet motor the engine"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 11,
+    "QuestionString": "The usual starter duty cycle is 3 starter crank cycles and",
+    "Answers": [
+      "60 seconds cooling period between each start attempt",
+      "35 seconds cooling period between each start attempt",
+      "45 seconds cooling period between each start attempt"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 12,
+    "QuestionString": "“Dual Cooling” mode during engine start:",
+    "Answers": [
+      "ECAM Memo “DUAL COOLING” is displayed",
+      "Select DUAL COOLING P/B to ON, “COOLING” sequence starts after initiating engine start sequence",
+      "Select DUAL COOLING P/B to ON, “COOLING” sequence starts on both engines"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 13,
+    "QuestionString": "How does the starter operate?",
+    "Answers": [
+      "Hydraulically",
+      "Electrically",
+      "Pneumatically"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  }
+]
+
+}

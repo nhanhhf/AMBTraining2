@@ -1,0 +1,162 @@
+{
+  "ModuleName": "ATA 74 - A320 NEO",
+  "CatInfos": [
+    {
+      "CatName": "A",
+      "QuestionRequired": [
+        12,
+        0,
+        0
+      ],
+      "TimeLimit": 10
+    },
+    {
+      "CatName": "B1",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    },
+    {
+      "CatName": "B2",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    }
+  ],
+  
+  "Questions": [
+  {
+    "Index": 1,
+    "QuestionString": "Which type is the ignition system?",
+    "Answers": [
+      "Low voltage, high energy",
+      "High voltage, low energy",
+      "High voltage, high energy"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 2,
+    "QuestionString": "What happens in case a surge is detected in flight or during take-off?",
+    "Answers": [
+      "Igniters will be powered until 30 seconds after the surge recovers",
+      "Only one igniter will be powered, the other will be hot standby",
+      "Igniters will be powered and cut-off immediately after the surge recovers"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 3,
+    "QuestionString": "What provides the selection of ignition A/B?",
+    "Answers": [
+      "The EEC",
+      "The engine control panel",
+      "The ECAM control panel"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 4,
+    "QuestionString": "When using the Manual start ignition selection:",
+    "Answers": [
+      "EEC energizes one of igniters based on logic and aircraft inputs of flap position",
+      "EEC energizes both igniters based on logic and aircraft inputs of flap position, cowl anti-ice status, and/or continuous ignition commands",
+      "EEC energizes both igniters based on logic and aircraft inputs of thrust lever position, cowl anti-ice status, and/or continuous ignition commands"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 5,
+    "QuestionString": "What does Continuous Relight mean?",
+    "Answers": [
+      "An active ignition system will work continuously",
+      "Both ignition systems are selected during engine start",
+      "Both ignition systems are demanded to work continuously"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 6,
+    "QuestionString": "Each engine equipped with?",
+    "Answers": [
+      "One ignition system with two igniters",
+      "Two ignition systems, each has two igniters",
+      "Two ignition systems with two igniters"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 7,
+    "QuestionString": "Ignition system power supply is?",
+    "Answers": [
+      "115 V from the aircraft",
+      "115 V from engine generator",
+      "28 V from the FADEC PMA"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 8,
+    "QuestionString": "How many ignition exciter units are located on PW 1100G engine?",
+    "Answers": [
+      "1",
+      "2",
+      "3"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 9,
+    "QuestionString": "In what conditions is the automatic dual-igniter continuous ignition provided by EEC?",
+    "Answers": [
+      "An engine flameout or a surge during takeoff or when fuel cutback due to Thrust Control Malfunction (TCM)",
+      "FADEC failure",
+      "Exciter Unit failure"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 10,
+    "QuestionString": "During an autostart on the ground, exciters are alternated as follows:",
+    "Answers": [
+      "EEC Channel A - Igniter 1, EEC Channel B - Igniter 1, EEC Channel A - Igniter 2, EEC Channel B - Igniter 2.",
+      "EEC Channel A - Igniter 1, EEC Channel B - Igniter 2, EEC Channel A - Igniter 2, EEC Channel B - Igniter 1.",
+      "EEC active channel randomly select the igniters."
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 11,
+    "QuestionString": "The ignition system has the following number of Ignition Exciter Boxes and Igniter Plugs:",
+    "Answers": [
+      "One Ignition Exciter Box and two Igniter plugs",
+      "Two Ignition Exciter Boxes and two Igniter plugs",
+      "One Ignition Exciter Box and one Igniter plug"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 12,
+    "QuestionString": "During an auto start on the ground, exciters are alternated as follows:",
+    "Answers": [],
+    "Level": 3
+  }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "ModuleName": "ATA 79 - A320 NEO",
+  "CatInfos": [
+    {
+      "CatName": "A",
+      "QuestionRequired": [
+        21,
+        0,
+        0
+      ],
+      "TimeLimit": 10
+    },
+    {
+      "CatName": "B1",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    },
+    {
+      "CatName": "B2",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    }
+  ],
+  
+  "Questions": [
+  {
+    "Index": 1,
+    "QuestionString": "Which computer controls JOSV?",
+    "Answers": [
+      "EEC",
+      "EIU",
+      "No computer, only mechanical"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 2,
+    "QuestionString": "How many warning levels can the main oil filter trigger?",
+    "Answers": [
+      "None",
+      "Clogged",
+      "Degraded and Clogged"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 3,
+    "QuestionString": "What is the type of bearing in FDGS?",
+    "Answers": [
+      "Journal Bearing",
+      "Tapered roller bearing",
+      "Oil film Bearing"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 4,
+    "QuestionString": "Which computer controls VORV?",
+    "Answers": [
+      "No computer, only mechanical",
+      "EEC",
+      "EIU"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 5,
+    "QuestionString": "What is the Fail Safe position of VORV?",
+    "Answers": [
+      "Fully Open",
+      "Fully Close",
+      "30% open"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 6,
+    "QuestionString": "What is the new component on the Oil Monitoring system compared to V2500?",
+    "Answers": [
+      "Master Magnetic Chip Detector",
+      "Oil Debris Monitoring",
+      "Last Chance Strainer"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 7,
+    "QuestionString": "For PW 1130 Engine, The Starter Air oil system is:",
+    "Answers": [
+      "Independent",
+      "Using with Engine Oil System",
+      "Using IDG Oil System"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 8,
+    "QuestionString": "How many pumps inside the Journal Bearing?",
+    "Answers": [
+      "0",
+      "1",
+      "2"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 9,
+    "QuestionString": "What is the pressure maintained on the oil tank assembly by Deaerator?",
+    "Answers": [
+      "8 psi",
+      "12 psi",
+      "20 psi"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 10,
+    "QuestionString": "Which side of the engine are most oil system components installed on?",
+    "Answers": [
+      "LH side",
+      "RH side",
+      "Both sides"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 11,
+    "QuestionString": "How many pump stages on LSOP?",
+    "Answers": [
+      "1 supply pump and 6 scavenge pumps",
+      "2 supply pumps and 5 scavenge pumps",
+      "1 supply pump and 5 scavenge pumps"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 12,
+    "QuestionString": "What is the purpose of the Auxiliary Lubrication System?",
+    "Answers": [
+      "To protects the FDGS journal bearings from low oil pressure conditions in windmilling operation",
+      "To provide correct oil flow to the Fan Drive Gear System and the No. 3 Bearing",
+      "To controls oil flow to the No. 3 Bearing damper"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 13,
+    "QuestionString": "What is the function of the Fuel/Oil Heat Exchanger Bypass Valve (FOHEBV)?",
+    "Answers": [
+      "To control and distribute oil flow between two pathways based on fuel temperature",
+      "To direct the oil to journal bearings, ensuring their lubrication at low power setting",
+      "To controls oil flow to the No. 3 Bearing damper"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 14,
+    "QuestionString": "The Oil Debris Monitoring (ODM) sensor",
+    "Answers": [
+      "Sends signals proportional to the size and type of the pollution particles to the HMU",
+      "Sends signals proportional to the size and type of the pollution particles to the EIU",
+      "Sends signals proportional to the size and type of the pollution particles to the PHMU"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 15,
+    "QuestionString": "Which mechanical device keeps a continuous supply of oil to the fan drive journal bearings from the auxiliary oil supply in windmill",
+    "Answers": [
+      "JOSV",
+      "AODV",
+      "VORV"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 16,
+    "QuestionString": "For PW 1130 Engine, the signal from the Oil Debris Monitoring Sensor (ODMS) sends to:",
+    "Answers": [
+      "EEC",
+      "PHMU",
+      "EIU"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 17,
+    "QuestionString": "The Main Oil Temperature (MOT) sensor is a dual channel sensor and is used to",
+    "Answers": [
+      "Measure the temperature of the scavenge oil returning to the tank",
+      "Measure the temperature of the lubrication oil pressure from the tank",
+      "Measure the pressure of the scavenge oil returning to the tank"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 18,
+    "QuestionString": "The No. 4 bearing magnetic chip collector is located",
+    "Answers": [
+      "The lubrication and scavenge oil pump, at the 6 o'clock position",
+      "In the No. 4 bearing oil scavenge line",
+      "Exist in supply oil"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 19,
+    "QuestionString": "Is fuel flow used to cool down IDG oil and engine oil through?",
+    "Answers": [
+      "Integrated Fuel Pump and Control",
+      "Fuel/Oil Heat Exchanger",
+      "Return-To-Tank valve"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 20,
+    "QuestionString": "Which component modulates the flow of oil based on engine power settings?",
+    "Answers": [
+      "VORV/JOSV",
+      "FOHEBV",
+      "IDGOOHE"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 21,
+    "QuestionString": "Oil Debris Monitoring Sensor:",
+    "Answers": [
+      "Detects any type of pollution that crossed its electromagnetic field",
+      "Detects any type of pollution between the main oil scavenge line and oil supply line",
+      "Sends signal corresponding to ferrous and non-ferrous debris to EEC"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  }
+]
+
+}

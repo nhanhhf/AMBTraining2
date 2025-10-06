@@ -1,0 +1,376 @@
+{
+  "ModuleName": "ATA 73 - A320 NEO",
+  "CatInfos": [
+    {
+      "CatName": "A",
+      "QuestionRequired": [
+        31,
+        0,
+        0
+      ],
+      "TimeLimit": 10
+    },
+    {
+      "CatName": "B1",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    },
+    {
+      "CatName": "B2",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    }
+  ],
+  
+  "Questions": [
+  {
+    "Index": 1,
+    "QuestionString": "Power supplies to EEC:",
+    "Answers": [
+      "From the Permanent magnet alternator (PMA) only",
+      "From the aircraft or from the Permanent magnet alternator (PMA) as a backup supply",
+      "From the Permanent magnet alternator (PMA) or from the aircraft as a backup supply"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 2,
+    "QuestionString": "What is Integrated fuel pump and control (IFPC) for?",
+    "Answers": [
+      "IFPC supplies metered fuel flow to the engine as scheduled by the EEC",
+      "IFPC supplies pressurized fuel to engine component actuators",
+      "Both answer are correct"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 3,
+    "QuestionString": "How is Return to tank (RTT) valve controlled?",
+    "Answers": [
+      "The RTT valve is controlled by EEC (12)",
+      "The RTT valve is controlled by EEC, and is actuated based on aircraft altitude, ambient temperature and fuel flow",
+      "The RTT valve is controlled by FQIC and EEC, and is actuated based on aircraft altitude, ambient temperature and fuel flow"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 4,
+    "QuestionString": "The fuel metering valve located in IFPC and controlled by:",
+    "Answers": [
+      "EIU",
+      "EEC",
+      "PHMU"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 5,
+    "QuestionString": "To minimize the build-up of carbon in the combustion chamber and to reduces toxic gas emissions at engine shutdown:",
+    "Answers": [
+      "Remaining fuel from the primary and secondary lines is collected and discharged overboard through drain mast",
+      "Remaining fuel from the primary and secondary lines is purged into combustion chamber",
+      "Remaining fuel from the primary and secondary lines is drained and collected in recovery tank and reused at next startup"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 6,
+    "QuestionString": "How is the Return-to-Tank (RTT) valve controlled?",
+    "Answers": [
+      "By the EEC and is actuated based on aircraft altitude, ambient temperature, and fuel flow",
+      "By the PHMU and is actuated based on fuel temperature",
+      "By the EIU and is actuated based on fuel temperature"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 7,
+    "QuestionString": "How do the EEC’s both channels operate at normal mode?",
+    "Answers": [
+      "They are in active/passive mode",
+      "They are in active/active mode",
+      "They are in active/standby mode"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 8,
+    "QuestionString": "Identify the number of fuel nozzles?",
+    "Answers": [
+      "Twelve (12)",
+      "Eighteen (18)",
+      "Twenty two (22)"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 9,
+    "QuestionString": "The ring of vanes of Turbine Nozzle Assembly makes?",
+    "Answers": [
+      "Changing the direction of the hot gases to provide optimal flow, and pressure to the 1st stage turbine blades",
+      "Changing the direction of the hot gases to provide optimal angle, and flow to the combustion chamber",
+      "Changing the direction of the hot gases to provide optimal angle, pressure, and flow to the 1st stage turbine blades"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 10,
+    "QuestionString": "Where is P2.5/T2.5 probe locate?",
+    "Answers": [
+      "On Compressor Intermediate Case at 1:00",
+      "On Compressor Intermediate Case at 6:00",
+      "On High-pressure Intermediate Case at 1:00"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 11,
+    "QuestionString": "PMA (Permanent Magnet Alternator) is cooled by:",
+    "Answers": [
+      "Fan air",
+      "2.5 bleed air",
+      "Engine oil"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 12,
+    "QuestionString": "The PHMU (Prognostics and Health Management Unit) communicates with EEC via:",
+    "Answers": [
+      "ARINC 429 data bus",
+      "CAN (Control Area Network) data bus",
+      "Ethernet bus"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 13,
+    "QuestionString": "The engine inlet pressure (P2) is measured by:",
+    "Answers": [
+      "P2/T2 probe located at 1 o’clock on inlet cowl",
+      "Pressure port located on EEC",
+      "It is not measured directly, instead the EEC calculates P2 from Ps14"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 14,
+    "QuestionString": "What is the function of the PHMU (Prognostics and Health Management Unit)?",
+    "Answers": [
+      "To monitor engine oil debris and FDGS lubrication. Also to calculates engine vibration and fan trim balance solutions",
+      "To predict the engine future malfunctions",
+      "To back up EEC operation"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 15,
+    "QuestionString": "The Pressure Fuel consist of:",
+    "Answers": [
+      "Fuel cooling, fuel metered and fuel muscle",
+      "Fuel cooling, fuel return and fuel cycle",
+      "Fuel return, fuel cycle and fuel muscle"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 16,
+    "QuestionString": "Is fuel flow used to cool down IDG oil and engine oil through?",
+    "Answers": [
+      "Integrated Fuel Pump and Control",
+      "Fuel/Oil Heat Exchanger",
+      "Return-To-Tank valve"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 17,
+    "QuestionString": "The collected fuel remains in ecology collector tank is drawn back into fuel system when?",
+    "Answers": [
+      "Next engine start up",
+      "Last engine shut down",
+      "Aircraft is energized"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 18,
+    "QuestionString": "The FADEC consists of?",
+    "Answers": [
+      "EEC and PHMU",
+      "EEC, PHMU and sensors",
+      "EEC, PHMU, sensors and output drivers"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 19,
+    "QuestionString": "The PW110G Engine rating adjusted by:",
+    "Answers": [
+      "MCDU",
+      "DSU",
+      "Cannot be adjusted"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 20,
+    "QuestionString": "The EEC and PHMU attached to Engine Fan Case",
+    "Answers": [
+      "At position 12h O’clock",
+      "At position 2h30 O’clock",
+      "At position 4h O’clock"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 21,
+    "QuestionString": "The fan speed (Nf) speed sensors send signals direct to",
+    "Answers": [
+      "The PHMU & EEC",
+      "The PHMU",
+      "The EEC"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 22,
+    "QuestionString": "How many fuel nozzles are there on PW 1130 Engine?",
+    "Answers": [
+      "16",
+      "18",
+      "20"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 23,
+    "QuestionString": "When the fuel filter becomes blocked by contamination:",
+    "Answers": [
+      "“Fuel filter degraded” message generated on ECAM",
+      "“Fuel filter clogged” message generated on ECAM",
+      "“Fuel filter degraded” or “Fuel filter clogged” message generated on ECAM depending on specific differential pressure values"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 24,
+    "QuestionString": "What is the function of the PHMU (Prognostics and Health Management Unit)?",
+    "Answers": [
+      "To monitor engine oil debris and FDGS lubrication, also to calculate engine vibration and fan trim balance solutions",
+      "To predict the engine future malfunctions",
+      "To back up EEC operation"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 25,
+    "QuestionString": "When an output control failure is detected in active channel EEC:",
+    "Answers": [
+      "The EEC switches to passive/active operation mode",
+      "The EEC switches to active/active operation mode",
+      "The EEC switches to standby/active operation mode"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 26,
+    "QuestionString": "What data is stored in DSU (Data Storage Unit)?",
+    "Answers": [
+      "The Permanent Magnet Alternator (PMA) always",
+      "The Permanent Magnet Alternator (PMA) when N2 > 12%"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 27,
+    "QuestionString": "Normally the EEC is powered from:",
+    "Answers": [
+      "engine configuration and identification, usage and exceedance historical data, thrust ratings and vibration monitoring.",
+      "engine configuration, identification and vibration monitoring.",
+      "The aircraft as a primary supply"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 28,
+    "QuestionString": "Which component divides the fuel to primary and secondary manifold?",
+    "Answers": [
+      "Fuel Metering Valve",
+      "Fuel Divider Valve",
+      "Pressure Regulating Valve"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 29,
+    "QuestionString": "Data Storage Unit connects to:",
+    "Answers": [
+      "EEC Channel A",
+      "EEC Channel B",
+      "PHMU"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 30,
+    "QuestionString": "What are/is the kind of different pressure fuel filter clog indication(s) available?",
+    "Answers": [
+      "Degrad",
+      "Clog & degrad",
+      "Clog"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 31,
+    "QuestionString": "The annular combustion chamber houses",
+    "Answers": [
+      "18 fuel nozzles (6 simplex and 12 duplex)",
+      "18 fuel nozzles (9 simplex and 9 duplex)",
+      "18 fuel nozzles (12 simplex and 6 duplex)"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  }
+]
+
+}

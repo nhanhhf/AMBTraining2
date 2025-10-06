@@ -1,0 +1,244 @@
+{
+  "ModuleName": "ATA 72 - A320 NEO",
+  "CatInfos": [
+    {
+      "CatName": "A",
+      "QuestionRequired": [
+        19,
+        0,
+        0
+      ],
+      "TimeLimit": 10
+    },
+    {
+      "CatName": "B1",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    },
+    {
+      "CatName": "B2",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    }
+  ],
+  
+  "Questions": [
+  {
+    "Index": 1,
+    "QuestionString": "How many type of Engine main bearings:",
+    "Answers": [
+      "Three types of bearing: Roller bearing with alignment and load: axial; Ball bearing and Tapered roller bearing with alignment and load: axial and radial",
+      "Three types of bearing: Roller bearing with alignment and load: radial; Ball bearing and Tapered roller bearing with alignment and load: axial and radial",
+      "Three types of bearing: Roller bearing with alignment and load radial; Ball bearing and Tapered roller bearing with alignment and load axial"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 2,
+    "QuestionString": "Engine’s main bearing No.1 and No.1.5 are:",
+    "Answers": [
+      "Oil-damped bearings",
+      "Tapered roller type",
+      "Ball type bearings"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 3,
+    "QuestionString": "What kind of bearing is used for bearing compartments (4, 5, 6)?",
+    "Answers": [
+      "Tapered Roller",
+      "Ball",
+      "Roller"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 4,
+    "QuestionString": "Features of PW1100G engine are:",
+    "Answers": [
+      "Axial flow, dual-rotor, variable stator, high bypass ratio power plant",
+      "Radial flow, dual-rotor, variable stator, high bypass ratio power plant",
+      "Axial flow, dual-rotor, geared fan, variable stator, ultra high bypass ratio power plant"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 5,
+    "QuestionString": "Identify the number of blades in one engine fan set?",
+    "Answers": [
+      "Thirty six (36)",
+      "Twenty (20)",
+      "Twenty two (22)"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 6,
+    "QuestionString": "The LPCompressor has how many stages?",
+    "Answers": [
+      "Only one stage",
+      "Two stages",
+      "Three stages"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 7,
+    "QuestionString": "The engine rotor comprises",
+    "Answers": [
+      "A single stage fan rotor, 3 stage LP Compressor, 8 stage HP Compressor, 2 stage HP turbine and 3 stage LP turbine",
+      "A single stage fan rotor, 3 stage LP Compressor, 9 stage HP Compressor, 2 stage HP turbine and 3 stage LP turbine",
+      "A single stage fan rotor, 4 stage LP Compressor, 8 stage HP Compressor, 2 stage HP turbine and 3 stage LP turbine"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 8,
+    "QuestionString": "The primary structure of the PW1100G-JM engine are:",
+    "Answers": [
+      "FIC (Fan Intermediate Case) and TIC (Turbine Intermediate Case)",
+      "CIC (Compressor Intermediate Case) and TEC (Turbine Exhaust Case)",
+      "Fan case and TIC (Turbine Intermediate Case)"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 9,
+    "QuestionString": "The Fan Drive Gear System (FDGS) is made up of:",
+    "Answers": [
+      "A central gear surrounded by three star gears which are supported by journal bearings",
+      "A central sun gear surrounded by five star gears which are supported by journal bearings and an outer ring gear",
+      "A central sun gear surrounded by five star gears which are supported by an outer ring gear"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 10,
+    "QuestionString": "What is No. 4 Roller Bearing assembly support?",
+    "Answers": [
+      "The rear of HPT rotor and contains the No. 4 Bearing support, attached to the inner case",
+      "The rear of LPT rotor and contains the No. 4 Bearing support, attached to the outer case",
+      "The rear of LPT rotor and contains the No. 4 Bearing support, attached to the inner case"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 11,
+    "QuestionString": "How the Engine main gearbox (MGB) are driven by?",
+    "Answers": [
+      "N1 rotor",
+      "N2 rotor via the transfer gear box",
+      "The Angle gearbox (AGB) extracts power from HPC and provides it to the MGB through a series of gear shafts"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 12,
+    "QuestionString": "What is the purpose of Compressor Intermediate Case (CIC)?",
+    "Answers": [
+      "Providing a flow path for engine core airflow coming from the LPC to the HPC",
+      "Providing a flow path for engine core airflow coming from the Fan Intermediate Case (FIC) to the LPC",
+      "Neither A nor B"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 13,
+    "QuestionString": "The PW1100G-JM engine’s stage counting is as follows:",
+    "Answers": [
+      "1-4-9-1-5",
+      "1-G-4-10-2-5",
+      "1-G-3-8-2-3"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 14,
+    "QuestionString": "How to identify the Fan blade No.1?",
+    "Answers": [
+      "The number is vibro-peened on fan hub platform",
+      "The number is vibro-peened on fan blade",
+      "The number is vibro-peened on retaining lock ring"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 15,
+    "QuestionString": "The PW1100G engine unique design features:",
+    "Answers": [
+      "An engine fan separated from the low pressure rotor, so that each module operates at optimal speeds",
+      "The engine makes use of a number of composite components including a composite fan blade, to achieve a significant weight reduction",
+      "The unique debris rejection system provides the best erosion protection, preventing sand, dirt, and other harmful items from reaching the core"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 16,
+    "QuestionString": "Which component does help in improving engine performance by reducing fan rotating speed and permitting LPC to higher speed?",
+    "Answers": [
+      "Fan Exit Guide Vane (VIGV)",
+      "Variable Inlet Guide Vanes (VIGV)",
+      "Fan Drive Gear System (FDGS)"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 17,
+    "QuestionString": "What is true regarding the PW1100G Fan blades?",
+    "Answers": [
+      "Solid laminate composite structured with titanium strip reinforced on the leading edge",
+      "Partially hollow and made of aluminum and a titanium strip is bonded to the leading edge",
+      "Partially hollow and made of titanium with a steel strip bonded to the leading edge"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 18,
+    "QuestionString": "Fan Drive Gear System (FDGS) basically is:",
+    "Answers": [
+      "Worm gearbox",
+      "Differential gearbox",
+      "Planetary gearbox"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 19,
+    "QuestionString": "The FDGS is a reduction gear mechanism which comprises of a central sun gear and",
+    "Answers": [
+      "Five planetary gears arranged like a star",
+      "Four planetary gears arranged like a star",
+      "Six planetary gears arranged like a star"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  }
+]
+}

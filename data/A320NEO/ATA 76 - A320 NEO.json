@@ -1,0 +1,134 @@
+{
+  "ModuleName": "ATA 76 - A320 NEO",
+  "CatInfos": [
+    {
+      "CatName": "A",
+      "QuestionRequired": [
+        9,
+        0,
+        0
+      ],
+      "TimeLimit": 10
+    },
+    {
+      "CatName": "B1",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    },
+    {
+      "CatName": "B2",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    }
+  ],
+  
+  "Questions": [
+  {
+    "Index": 1,
+    "QuestionString": "Which computer controls the engine thrust?",
+    "Answers": [
+      "EEC in both manual and automatic thrust modes",
+      "FMGC in automatic thrust mode and ECU in manual mode",
+      "FCU in both manual and automatic thrust modes"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 2,
+    "QuestionString": "When the throttle is between two detent points, what position corresponds to the thrust limit?",
+    "Answers": [
+      "The upper detent point",
+      "The lower detent point",
+      "The actual throttle lever position"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 3,
+    "QuestionString": "What does the FMGC compute?",
+    "Answers": [
+      "N1 limit",
+      "N1 target",
+      "N1 command"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 4,
+    "QuestionString": "What is the normal engine throttle cruise detent point?",
+    "Answers": [
+      "CL",
+      "FLX/MCT",
+      "TOGA"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 5,
+    "QuestionString": "Throttle control system consists of?",
+    "Answers": [
+      "Throttle control lever, throttle control artificial feel unit, throttle control unit, electrical harness",
+      "Throttle control lever, throttle control artificial feel unit, throttle control unit, electrical harness, EGT thermocouple",
+      "Throttle control lever, throttle control artificial feel unit, electrical harness"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 6,
+    "QuestionString": "In case of overspeed, EEC will control:",
+    "Answers": [
+      "Thrust Control Malfunction (TCM)/Overspeed TM in IFPC",
+      "FMV TM in IFPC",
+      "FDR to stop the fuel in the combustion chamber"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 7,
+    "QuestionString": "In case of TCM (Thrust Control Malfunction) on ground, the fuel shut-off valve will be controlled in:",
+    "Answers": [
+      "Open position",
+      "Closed position",
+      "Partially open position"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 8,
+    "QuestionString": "In case of TCM (Thrust Control Malfunction) in flight, the fuel shut-off valve will be controlled in:",
+    "Answers": [
+      "Open position",
+      "Closed position",
+      "Partially open position"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 9,
+    "QuestionString": "In case of the event of Thrust control malfunction (TCM) on ground:",
+    "Answers": [
+      "There is no protection, the Thrust lever must be moved forward manually",
+      "The torque motor shuts down",
+      "The Engine master switch switches off immediately"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  }
+]
+}

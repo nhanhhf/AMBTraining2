@@ -1,0 +1,485 @@
+{
+  "ModuleName": "ATA 71 - A320 NEO",
+  "CatInfos": [
+    {
+      "CatName": "A",
+      "QuestionRequired": [
+        41,
+        0,
+        0
+      ],
+      "TimeLimit": 10
+    },
+    {
+      "CatName": "B1",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    },
+    {
+      "CatName": "B2",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    }
+  ],
+  
+  "Questions": [
+  {
+    "Index": 1,
+    "QuestionString": "Features of PW1100G-JM engine are:",
+    "Answers": [
+      "Axial flow, twin spool turbofan with an ultra-high bypass ratio, low speed gear-driven fan",
+      "Axial flow, twin spool turbofan with an ultra-high bypass ratio, high speed gear-driven fan",
+      "Axial flow, twin spool turbofan with a low bypass ratio, low speed gear-driven fan"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 2,
+    "QuestionString": "“PW1130G-JM” means:",
+    "Answers": [
+      "Engine is rated at max thrust of 25300 lbs to install in the Airbus A/C",
+      "Engine is rated at max thrust of 30000 lbs to install in the Airbus A/C",
+      "Engine is rated at max thrust of 25000 lbs to install in the Airbus A/C"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 3,
+    "QuestionString": "Fan cowls:",
+    "Answers": [
+      "Each of the 3 fan cowl door latches has a fan cowl door proximity sensor which is able to detect whether the relative latch is locked to alert the ground crew to the fan cowl’s position",
+      "Fan cowl door has two fan cowl door proximity sensors which are able to detect whether the relative latch is locked to alert the ground crew to the fan cowl’s position",
+      "Fan cowl door has a fan cowl door proximity sensor which is able to detect whether the relative latch is locked to alert the ground crew to the fan cowl’s position"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 4,
+    "QuestionString": "Engine mounts have:",
+    "Answers": [
+      "The FWD mount assy is attached to the CIC, supports side and vertical loads and the AFT mount assy is attached to the TEC, reacts to engine fore-aft, side, vertical, roll loads",
+      "The FWD mount assy is attached to the TEC, supports side and vertical loads and the AFT mount assy is attached to the CIC, reacts to engine fore-aft, side, vertical, roll loads",
+      "The FWD mount assy is attached to the CICF, supports side and vertical loads and the AFT mount assy is attached to the TECF, reacts to engine fore-aft, side, vertical, roll loads"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 5,
+    "QuestionString": "Nacelle system components provide the engine with the capabilities:",
+    "Answers": [
+      "An aerodynamic for engine mounted components",
+      "An aerodynamic and protective enclosure for engine mounted components; Collection and discharge of oil, fuel and hydraulic fluid from the engine and its components",
+      "An aerodynamic and protective enclosure for engine mounted components; Collection and discharge of oil, fuel from the engine and its components"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 6,
+    "QuestionString": "The Aft Engine Mount Assy supports:",
+    "Answers": [
+      "The engine fore-aft, side, vertical, and roll loads",
+      "The engine vertical, and roll loads",
+      "The engine side and vertical loads"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 7,
+    "QuestionString": "The aerodynamic station 2.5 locates at:",
+    "Answers": [
+      "Outlet of LPC",
+      "Outlet of HPC",
+      "Outlet of LPT"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 8,
+    "QuestionString": "To alert the maintenance staff to fan cowl’s not closed position:",
+    "Answers": [
+      "Each fan cowl latch has a proximity switch",
+      "The middle fan cowl latch has a proximity switch",
+      "Each fan cowl has a proximity switch"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 9,
+    "QuestionString": "The primary thrust control parameter of the engine PW1100G is:",
+    "Answers": [
+      "N1",
+      "N2",
+      "EPR"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 10,
+    "QuestionString": "ENG PW1100G equips with Aircraft Model:",
+    "Answers": [
+      "A321 only",
+      "A320 only",
+      "A319, A320, A321"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 11,
+    "QuestionString": "PW1100G highest Thrust could be set up to:",
+    "Answers": [
+      "33.000lb",
+      "23.000lb",
+      "43.000lb"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 12,
+    "QuestionString": "Proximity sensors are installed on each latch of fan cowl doors which sends its position signal to",
+    "Answers": [
+      "the Engine Interface Unit (EIU) & the EEC",
+      "the EEC",
+      "the Engine Interface Unit (EIU)"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 13,
+    "QuestionString": "How many Bearing PW1100G has:",
+    "Answers": [
+      "8",
+      "7",
+      "4"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 14,
+    "QuestionString": "How many Bearing Compartment PW1100G has:",
+    "Answers": [
+      "5",
+      "3",
+      "7"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 15,
+    "QuestionString": "The Fan rotor contributes to approximately",
+    "Answers": [
+      "70% of the thrust",
+      "80% of the thrust",
+      "90% of the thrust"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 16,
+    "QuestionString": "How many fan blades are there at the fan rotor?",
+    "Answers": [
+      "20",
+      "24",
+      "36"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 17,
+    "QuestionString": "Each half of C ducts includes one translating sleeve, two actuators,",
+    "Answers": [
+      "ten blocker doors and cascades",
+      "five blocker doors and cascades",
+      "five blocker doors and pivoting doors"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 18,
+    "QuestionString": "How many preservation methods are used for the protection of out-of-service engines?",
+    "Answers": [
+      "3: Preserve the engine for 30 days, or 60 days, or 90 days",
+      "2: Preserve the engine for 30 days, or 60 days",
+      "2: Preserve the engine for more than 60 days or for 60 days or less"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 19,
+    "QuestionString": "Each fan cowl door is manually opened, and held open with:",
+    "Answers": [
+      "Two telescopic hold open rods",
+      "One telescopic and one fix hold open rods",
+      "Two fix hold open rods"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 20,
+    "QuestionString": "Each thrust reverser cowl door can be opened:",
+    "Answers": [
+      "By hand and held open with two hold open rods",
+      "Using the Door Opening System (DOS) by means of hydraulic hand pump and held open by one fix hold open rod",
+      "Using the Door Opening System (DOS) by means of hydraulic hand pump and held open by two fix hold open rods"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 21,
+    "QuestionString": "The Engine Drain System collects and discharges fluids from the engine and pylon through drain outlets located:",
+    "Answers": [
+      "On the sides of the drain mast",
+      "On the bottom of the drain mast",
+      "On the side and bottom of the drain mast"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 22,
+    "QuestionString": "For PW 1130 Engine, The ENG Drain mast gives a leak path exit for hydraulic, oil and:",
+    "Answers": [
+      "Fuel component",
+      "Reverser system actuators",
+      "Permanent Magnet Alternator (PMA)"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 23,
+    "QuestionString": "The PW1000G engine unique design features:",
+    "Answers": [
+      "An engine fan separated from the low pressure rotor, so that each module operates at optimal speeds",
+      "The engine makes use of a number of composite components including a composite fan blade, to achieve a significant weight reduction",
+      "The unique debris rejection system provides the best erosion protection, preventing sand, dirt, and other harmful items from reaching the core"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 24,
+    "QuestionString": "Proximity sensors are installed on each latch of fan cowl doors which sends its position signal to",
+    "Answers": [
+      "The Engine Interface Unit (EIU) & the EEC",
+      "The Engine Interface Unit (EIU)"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 25,
+    "QuestionString": "The inlet cone is made of composite material and is anti-iced with a continuous airflow from",
+    "Answers": [
+      "The HP compressor stage",
+      "The 2.5 compressor stage",
+      "The ram air inlet"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 26,
+    "QuestionString": "The FDGS permits the LPC to rotate at a higher speed and",
+    "Answers": [
+      "Helps in reducing the fan rotating speed",
+      "Helps in increasing the fan rotating speed",
+      "Helps in remaining the fan rotating speed constant"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 27,
+    "QuestionString": "The forward mount assembly bears",
+    "Answers": [
+      "The engine thrust, vertical and lateral loads",
+      "The engine vertical and radial loads",
+      "The engine thrust and radial loads"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 28,
+    "QuestionString": "The fan rotational speeds being lower",
+    "Answers": [
+      "Helps in reducing rotational loads and bird strike fan damage",
+      "Helps in increasing rotational loads and bird strike fan damage",
+      "Helps in reducing rotational loads"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 29,
+    "QuestionString": "The geared turbo fan engine reduces the CO2 and NOx emissions and provides improved",
+    "Answers": [
+      "Fuel efficiency and low cost",
+      "Fuel efficiency and reduces engine noise",
+      "Fuel efficiency and reduces flight range"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 30,
+    "QuestionString": "Each half of reverser cowl doors:",
+    "Answers": [
+      "Is held closed by 4 latches",
+      "Is held open by a hold open rod and an opening actuator",
+      "Is held open by two hold open rods"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 31,
+    "QuestionString": "To open the PW1100G engine’s thrust reverser cowls",
+    "Answers": [
+      "Slats must be fully retracted",
+      "Slats must be fully extended",
+      "Slats can be at any position"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 32,
+    "QuestionString": "When opening the engine cowls:",
+    "Answers": [
+      "Respect the wind limitations and the opening/closing sequence",
+      "Make sure that the slats are retracted and install a warning notice to prevent slat operation",
+      "All above"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 33,
+    "QuestionString": "Engine drains system provides an aerodynamic drain mast protrudes:",
+    "Answers": [
+      "Exit holes on the sides and bottom surface which are identified to enable troubleshooting",
+      "Exit holes on the sides which are identified to enable troubleshooting",
+      "Exit holes on the bottom surface which are identified to enable troubleshooting"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 34,
+    "QuestionString": "Fluids drained from the power plant are?",
+    "Answers": [
+      "Fuel, oil or hydraulic",
+      "Fuel, oil or water",
+      "Fuel, oil, hydraulic or water"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 35,
+    "QuestionString": "The forward mount:",
+    "Answers": [
+      "Carries the engine torque, thrust and side loads",
+      "Carries the engine torque, vertical and side loads",
+      "Carries the engine thrust, vertical and side loads"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 36,
+    "QuestionString": "The aft mount:",
+    "Answers": [
+      "Carries the engine torque, thrust and side loads",
+      "Carries the engine torque, vertical and side loads",
+      "Carries the engine thrust, vertical and side loads"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 37,
+    "QuestionString": "Fluids drained from the pylon are?",
+    "Answers": [
+      "Fuel, oil or hydraulic",
+      "Fuel, oil or water",
+      "Fuel, hydraulic or water"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 38,
+    "QuestionString": "The engine is attached to the pylon by",
+    "Answers": [
+      "FWD and AFT mounts",
+      "FWD, middle and AFT mounts",
+      "Three mounts"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 39,
+    "QuestionString": "How many Fan Cowl Door latches are there on PW 1130?",
+    "Answers": [
+      "2",
+      "3",
+      "4"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 40,
+    "QuestionString": "How many Thrust Reverser cowl Door latches are there on PW 1130?",
+    "Answers": [
+      "6",
+      "7",
+      "8"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 41,
+    "QuestionString": "How many hold open rods on each Reverser cowl?",
+    "Answers": [
+      "1",
+      "2",
+      "3"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  }
+]
+}

@@ -1,0 +1,332 @@
+{
+  "ModuleName": "ATA 77 - A320 NEO",
+  "CatInfos": [
+    {
+      "CatName": "A",
+      "QuestionRequired": [
+        41,
+        0,
+        0
+      ],
+      "TimeLimit": 10
+    },
+    {
+      "CatName": "B1",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    },
+    {
+      "CatName": "B2",
+      "QuestionRequired": [
+        8,
+        0,
+        0
+      ],
+      "TimeLimit": 45
+    }
+  ],
+  
+  "Questions": [
+  {
+    "Index": 1,
+    "QuestionString": "What is the N2 speed sensor located on?",
+    "Answers": [
+      "Main Gearbox",
+      "N2",
+      "Angle Gearbox"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 2,
+    "QuestionString": "How many speed sensors on PW1100G?",
+    "Answers": [
+      "1 N1, 1 N2",
+      "2 N1 (one active/one spare), 1 N2",
+      "1 N1, 1 N2, 1 Nfan"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 3,
+    "QuestionString": "Where is the PHMU located?",
+    "Answers": [
+      "Fan Case forward the EEC",
+      "On FWD Avionic Bay",
+      "Inside the EEC"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 4,
+    "QuestionString": "PHMU is monitoring…?",
+    "Answers": [
+      "Oil Debris monitoring, Vibration monitoring, Auxiliary Oil pressure Monitoring",
+      "Oil Debris monitoring, Auxiliary Oil pressure Monitoring",
+      "Oil Debris monitoring, Vibration monitoring"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 5,
+    "QuestionString": "How many EGT thermocouple on PW1100G?",
+    "Answers": [
+      "4",
+      "6",
+      "2"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 6,
+    "QuestionString": "What is the Cold Junction Compensation to compute EGT?",
+    "Answers": [
+      "Main Oil temp Sensor",
+      "T3 temp sensor",
+      "Fuel temp sensor"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 7,
+    "QuestionString": "How many vibration sensors on PW1100G?",
+    "Answers": [
+      "02 - at aft and forward",
+      "01 - at core",
+      "02 - at core and fan case"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 8,
+    "QuestionString": "The engine primary parameters are displayed on?",
+    "Answers": [
+      "The lower ECAM engine page",
+      "The upper ECAM",
+      "Both The lower ECAM engine page and the upper ECAM"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 9,
+    "QuestionString": "The engine page is selected?",
+    "Answers": [
+      "Manually or automatically depending on flight phases",
+      "Manually only",
+      "Automatically only depending on flight phases"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 10,
+    "QuestionString": "The engine “N2 SPEED” parameter is displayed on?",
+    "Answers": [
+      "The Upper ECAM",
+      "The Lower ECAM engine page",
+      "The Lower ECAM engine page or Cruise page"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 11,
+    "QuestionString": "The engine oil quantity parameters are displayed on?",
+    "Answers": [
+      "The Upper ECAM",
+      "The Lower ECAM engine page",
+      "The Lower ECAM engine page or Cruise page"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 12,
+    "QuestionString": "The IGN indication is displayed on?",
+    "Answers": [
+      "The Upper ECAM during engine start",
+      "The Lower ECAM engine page during engine start",
+      "The Lower ECAM engine page or Cruise page"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 13,
+    "QuestionString": "The fuel used indication is reset to Zero:",
+    "Answers": [
+      "Five minutes after engine shut down",
+      "After a new take-off",
+      "At each engine start"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 14,
+    "QuestionString": "The engine thrust indicated on ECAM via what parameter?",
+    "Answers": [
+      "N1 speed",
+      "N2 speed",
+      "EGT"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 15,
+    "QuestionString": "For PW 1130 Engine, with the Ignition system of the engine is supplied with power as follows:",
+    "Answers": [
+      "115 V from the A/C electrical system",
+      "115 V from PMA",
+      "115 V from PMA or 115 V from the A/C electrical system depending on N2 speed"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 16,
+    "QuestionString": "For PW 1130 Engine, the Ignition system is controlled by:",
+    "Answers": [
+      "EEC",
+      "EIU",
+      "PMA"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 17,
+    "QuestionString": "A fan cowl loss prevention system is installed with:",
+    "Answers": [
+      "Mechanically with a flag only",
+      "Mechanically with a flag and Electrically monitored by proximity switches",
+      "Electrically monitored by proximity switches only"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 18,
+    "QuestionString": "The fan speed (Nf) is used:",
+    "Answers": [
+      "By the EEC to detect decoupling of the fan shaft and by the PHMU to calculate trim balance solutions",
+      "By the EEC to control the thrust",
+      "By the EEC for indication"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 19,
+    "QuestionString": "The engine EGT is sensed and averaged by",
+    "Answers": [
+      "Five thermocouple probes (T5 probes)",
+      "Four thermocouple probes (T5 probes)",
+      "Six thermocouple probes (T5 probes)"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 20,
+    "QuestionString": "EEC and PHMU are cooled by:",
+    "Answers": [
+      "Natural Convection",
+      "Individual Air Tube",
+      "Air Conditioning"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 21,
+    "QuestionString": "Sensor T3 transmits signal:",
+    "Answers": [
+      "Of temperature from 3rd stage of HPC",
+      "Of temperature from last stage of HPC",
+      "Of temperature from 3rd stage of LPT"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 22,
+    "QuestionString": "The PHMU (Prognostics and Health Management Unit) communicates with EEC via:",
+    "Answers": [
+      "ARINC 429 data bus",
+      "CAN (Control Area Network) data bus",
+      "Ethernet bus"
+    ],
+    "Level": 3,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 23,
+    "QuestionString": "The N1 & N2 speed sensors send signals direct to",
+    "Answers": [
+      "The EEC",
+      "The PHMU",
+      "The PHMU & EEC"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 24,
+    "QuestionString": "If the signal from one vibration sensor (either forward or aft vibration sensor) is lost during engine operation, the display for the affected sensor will be presented in",
+    "Answers": [
+      "Degraded mode",
+      "Normal mode",
+      "Cross amber"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 1
+  },
+  {
+    "Index": 25,
+    "QuestionString": "What are indication ENG speed sensors on the ECAM?",
+    "Answers": [
+      "Nf & N2",
+      "N1 & N2",
+      "N1, N2 & Nf"
+    ],
+    "Level": 1,
+    "CorrectAnswer": 2
+  },
+  {
+    "Index": 26,
+    "QuestionString": "What are purposes of Prognostics and Health Management Unit (PHMU)?",
+    "Answers": [
+      "Monitor and process levels for engine oil debris and rotor vibration",
+      "Respond to requests from avionics system that are received through EEC",
+      "All of above"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  },
+  {
+    "Index": 27,
+    "QuestionString": "Which sensor is used by the EEC to measure compressor discharge temperature for total temperature calculation?",
+    "Answers": [
+      "T2 sensor",
+      "T2.5 sensor",
+      "T3 sensor"
+    ],
+    "Level": 2,
+    "CorrectAnswer": 3
+  }
+]
+}
