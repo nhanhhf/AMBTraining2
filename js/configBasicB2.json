@@ -1,8 +1,8 @@
 {
-    "moduleList"    :   2,
-    "moduleCode"    : ["Module1", "Module2"],
-    "moduleName"    : ["Module 1", "Module 2"],
-    "moduleVersions": [1, 1],
-    "verifyTest"    : [-1, -1],
-    "subPart"       : [[2], [4]]
+    "moduleList"    :   3,
+    "moduleCode"    : ["Module1", "Module2", "Module3"],
+    "moduleName"    : ["Module 1", "Module 2", "Module 3"],
+    "moduleVersions": [1, 1, 1],
+    "verifyTest"    : [-1, -1, -1],
+    "subPart"       : [[2], [4], [2]]
 }
