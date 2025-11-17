@@ -1,10 +1,10 @@
 {
-    "moduleList"    :   9,
+    "moduleList"    :   11,
     "moduleCode"    : ["Module1", "Module2", "Module3", "Module4", "Module5-1", "Module5-2", 
-    "Module6", "Module7", "M13.1"],
+    "Module6", "Module7", "M13.1","Module8","M13.45"],
     "moduleName"    : ["Module 1", "Module 2", "Module 3", "Module 4", "Module 5-1", "Module 5-2", 
-    "Module 6", "Module 7", "M13.1 Theory of Flight"],
-    "moduleVersions": [1, 1, 1, 1, 1, 1, 1, 1,1 ],
-    "verifyTest"    : [-1, -1, -1, -1, -1, -1, -1, -1, -1],
-    "subPart"       : [[2], [4], [6], [6], [3], [4], [5], [3],[1]]
+    "Module 6", "Module 7", "M13.1 Theory of Flight","Module 8","M13 ATA 45"],
+    "moduleVersions": [1, 1, 1, 1, 1, 1, 1, 1,1,1,1],
+    "verifyTest"    : [-1, -1, -1, -1, -1, -1, -1, -1, -1,-1,-1],
+    "subPart"       : [[2], [4], [6], [6], [3], [4], [5], [3],[1],[2],[1]]
 }
